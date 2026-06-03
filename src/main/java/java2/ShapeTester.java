@@ -9,7 +9,7 @@ public class ShapeTester{
             System.out.println(square.getArea());
         }
         catch(InvalidGeometricalDimensionException e){
-            System.out.println("Exception caught: " + e.getMessage);
+            System.out.println("Exception caught: " + e.getMessage());
         }
 
         Shape circle = new Circle(3);
